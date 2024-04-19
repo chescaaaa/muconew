@@ -354,7 +354,7 @@
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
 
-<script>
+	<script>
 document.querySelectorAll('.product-quantity input').forEach(input => {
     input.addEventListener('input', function() {
         // Get the product ID and new quantity
@@ -369,6 +369,10 @@ document.querySelectorAll('.product-quantity input').forEach(input => {
         let newQuantity = parseInt(this.value.trim());
 
         // Validate the new quantity (e.g., ensure it's a positive integer)
+        if (isNaN(newQuantity) || newQuantity <= 0) {
+            console.error('Invalid quantity entered:', this.value);
+            return; // Exit function if the quantity is invalid
+        }
 
         // Make an AJAX request to update the quantity
         fetch('/cart/updateQuantity', {
@@ -398,7 +402,7 @@ document.querySelectorAll('.product-quantity input').forEach(input => {
         });
     });
 });
-
 </script>
+
 </body>
 </html>

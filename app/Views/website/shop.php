@@ -144,54 +144,33 @@
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- products -->
-	<div class="product-section mt-150 mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="product-filters">
-						<ul>
-							<li class="active" data-filter="*">All</li>
-							<!-- You can dynamically generate these filter options based on your product categories -->
-							<li data-filter=".haardware">Hardware</li>
-							<li data-filter=".Construction">Construction</li>
-							<li data-filter=".Etc">Etc.</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="row product-lists">
-				<?php foreach ($products as $product): ?>
-					<div class="col-lg-4 col-md-6 text-center <?= strtolower($product['Category']) ?>">
-						<div class="single-product-item">
-							<div class="product-image">
-								<a href="single-product.html"><img src="uploads/<?= $product['ImageURL']; ?>" alt="<?= $product['ProductName']; ?>" width= "200px" height= "150px" object-fit= "cover"></a>
-							</div>
-							<h3><?= $product['ProductName']; ?></h3>
-							<p class="product-price"><span>Per Piece</span>₱<?= $product['Price']; ?></p>
-							<a href="/cart/add/<?= $product['ProductID']; ?>" class="cart-btn">Add to Cart</a>
-						</div>
-					</div>
-				<?php endforeach; ?>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<div class="pagination-wrap">
-						<ul>
-							<li><a href="#">Prev</a></li>
-							<li><a href="#">1</a></li>
-							<li><a class="active" href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">Next</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end products -->
+<!-- products -->
+<div class="product-section mt-150 mb-150">
+    <div class="container">
+        <div class="row">
+            <?php foreach ($products as $product): ?>
+                <div class="col-lg-4 col-md-6 text-center <?= strtolower($product['Category']) ?>">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="single-product.html"><img src="uploads/<?= $product['ImageURL']; ?>" alt="<?= $product['ProductName']; ?>" width="200px" height="150px" object-fit="cover"></a>
+                        </div>
+                        <h3><?= $product['ProductName']; ?></h3>
+                        <p class="product-price"><span>Per Piece</span>₱<?= $product['Price']; ?></p>
+                        <?php if ($product['Quantity'] == 0): ?>
+                            <p class="sold-out">Sold Out</p>
+                        <?php else: ?>
+                            <div class="quantity-container">
+                                <input type="number" min="1" value="1" class="quantity-input" id="quantity_<?= $product['ProductID']; ?>">
+								<a href="/cart/add/<?= $product['ProductID']; ?>" class="cart-btn">Add to Cart</a>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</div>
+<!-- end products -->
 
 	<!-- logo carousel -->
 	<div class="logo-carousel-section">
@@ -311,6 +290,16 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+
+	<script>
+    // JavaScript function to add the selected quantity to the cart
+    function addToCart(productID) {
+        // Get the quantity input value
+        var quantity = document.getElementById('quantity_' + productID).value;
+        // Send the selected quantity to the cart endpoint
+        window.location.href = '/cart/add/' + productID + '/' + quantity;
+    }
+</script>
 
 </body>
 </html>

@@ -53,7 +53,7 @@ class ShopController extends BaseController
         }
 
         // You can redirect to the shopping page or any other appropriate page
-        return redirect()->to('/cart')->with('success', 'Product added to cart');
+        return redirect()->to('/shop')->with('success', 'Product added to cart');
     }
     public function ShopProducts()
     {

@@ -62,7 +62,7 @@ $this->section('body');
 
                 <!-- Action buttons -->
                 <td>
-                    <a href="#" class="btn btn-success btn-generate-qr" onclick="openQrModal(<?= $product['ProductID']?>, event)">Generate QR<i class="fa-solid fa-qrcode"></i></a><br><hr>
+                    
                     <a href="/inventory/edit/<?= $product['ProductID']?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
                     <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal" onclick="setDeleteLink(<?= $product['ProductID']?>)"><i class="fa-solid fa-trash"></i></button>
                 </td>

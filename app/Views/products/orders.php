@@ -99,6 +99,8 @@ $this->section('body');
     }
 
     // JavaScript function to update the status
+    
+   
     function updateStatus(orderID, status) {
         // Send AJAX request to update the status in the database
         fetch('/orders/updateStatus/' + orderID + '/' + status, {
@@ -126,6 +128,7 @@ $this->section('body');
             alert('Failed to update order status');
         });
     }
+
 </script>
 
 <?php $this->endSection(); ?>
