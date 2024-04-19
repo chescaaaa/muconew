@@ -1,0 +1,148 @@
+ERROR - 2024-02-19 21:52:32 --> mysqli_sql_exception: Unknown column 'ProductName' in 'field list' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Product...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Product...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Product...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Product...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\AgilaEcommerce\app\Models\CartModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\AgilaEcommerce\app\Controllers\WebController.php(47): App\Models\CartModel->getCartItems(18)
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\WebController->cart()
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+#10 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-19 21:52:32 --> Unknown column 'ProductName' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ProductID`, `ProductName`, `ProductPrice`, `Quantity`
+FROM `cart`
+WHERE `CustomerID` = :CustomerID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CartModel.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\WebController.php(47): App\Models\CartModel->getCartItems(18)
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\WebController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2024-02-19 21:56:15 --> mysqli_sql_exception: Unknown column 'ProductName' in 'field list' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Product...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Product...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Product...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Product...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\AgilaEcommerce\app\Models\CartModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\AgilaEcommerce\app\Controllers\WebController.php(47): App\Models\CartModel->getCartItems(18)
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\WebController->cart()
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+#10 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-19 21:56:15 --> Unknown column 'ProductName' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ProductID`, `ProductName`, `ProductPrice`, `Quantity`
+FROM `cart`
+WHERE `CustomerID` = :CustomerID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CartModel.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\WebController.php(47): App\Models\CartModel->getCartItems(18)
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\WebController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2024-02-19 21:56:49 --> mysqli_sql_exception: Unknown column 'ProductPrice' in 'field list' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Product...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Product...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Product...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `Product...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\AgilaEcommerce\app\Models\CartModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\AgilaEcommerce\app\Controllers\WebController.php(47): App\Models\CartModel->getCartItems(18)
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\WebController->cart()
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+#10 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-19 21:56:49 --> Unknown column 'ProductPrice' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `ProductID`, `ProductName`, `ProductPrice`, `Quantity`
+FROM `cart`
+WHERE `CustomerID` = :CustomerID:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CartModel.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\WebController.php(47): App\Models\CartModel->getCartItems(18)
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\WebController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-02-19 21:59:32 --> Undefined array key "ProductImage"
+in APPPATH\Views\website\cart.php on line 168.
+ 1 APPPATH\Views\website\cart.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProductImage"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\cart.php', 168)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('website/cart', [], true)
+ 5 APPPATH\Controllers\WebController.php(51): view('website/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\WebController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-02-19 22:16:14 --> syntax error, unexpected end of file
+in APPPATH\Views\website\index_2.php on line 592.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('website/index_2', [], true)
+ 3 APPPATH\Controllers\WebController.php(62): view('website/index_2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\WebController->index2()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-02-19 22:19:57 --> Undefined array key "ProductPrice"
+in APPPATH\Views\website\index_2.php on line 258.
+ 1 APPPATH\Views\website\index_2.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProductPrice"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\index_2.php', 258)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\index_2.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('website/index_2', [], true)
+ 5 APPPATH\Controllers\WebController.php(62): view('website/index_2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\WebController->index2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-02-19 22:25:58 --> Undefined array key "ProductImage"
+in APPPATH\Views\website\cart.php on line 168.
+ 1 APPPATH\Views\website\cart.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProductImage"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\cart.php', 168)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('website/cart', [], true)
+ 5 APPPATH\Controllers\WebController.php(51): view('website/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\WebController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-02-19 22:26:16 --> Undefined array key "ProductImage"
+in APPPATH\Views\website\cart.php on line 168.
+ 1 APPPATH\Views\website\cart.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProductImage"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\cart.php', 168)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('website/cart', [], true)
+ 5 APPPATH\Controllers\WebController.php(51): view('website/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\WebController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')

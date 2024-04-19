@@ -1,0 +1,326 @@
+CRITICAL - 2024-04-02 01:34:24 --> Class "SimpleSoftwareIO\QrCode\Generator" not found
+in APPPATH\Controllers\QrCodeController.php on line 35.
+ 1 APPPATH\Controllers\QrCodeController.php(25): App\Controllers\QrCodeController->generateQrCode('http://localhost:8080/cart/add/2')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\QrCodeController->generateAddToCartQR('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrCodeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 01:35:33 --> Class "SimpleSoftwareIO\QrCode\Generator" not found
+in APPPATH\Controllers\QrCodeController.php on line 35.
+ 1 APPPATH\Controllers\QrCodeController.php(25): App\Controllers\QrCodeController->generateQrCode('http://localhost:8080/cart/add/1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\QrCodeController->generateAddToCartQR('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrCodeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 01:37:24 --> Class "SimpleSoftwareIO\QrCode\Generator" not found
+in APPPATH\Controllers\QrCodeController.php on line 35.
+ 1 APPPATH\Controllers\QrCodeController.php(25): App\Controllers\QrCodeController->generateQrCode('http://localhost:8080/cart/add/1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\QrCodeController->generateAddToCartQR('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QrCodeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 02:04:26 --> Undefined variable $config
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Controllers\\UserController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\UserController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 03:20:36 --> Undefined variable $product
+in APPPATH\Views\products\orders.php on line 40.
+ 1 APPPATH\Views\products\orders.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/orders', [], true)
+ 5 APPPATH\Controllers\ShopController.php(270): view('products/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 03:20:50 --> Undefined variable $product
+in APPPATH\Views\products\orders.php on line 40.
+ 1 APPPATH\Views\products\orders.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/orders', [], true)
+ 5 APPPATH\Controllers\ShopController.php(270): view('products/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 03:21:00 --> Undefined array key "ProductID"
+in APPPATH\Views\products\orders.php on line 40.
+ 1 APPPATH\Views\products\orders.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProductID"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/orders', [], true)
+ 5 APPPATH\Controllers\ShopController.php(270): view('products/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 03:21:45 --> Undefined array key "CategoryName"
+in APPPATH\Views\products\orders.php on line 41.
+ 1 APPPATH\Views\products\orders.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CategoryName"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/orders', [], true)
+ 5 APPPATH\Controllers\ShopController.php(270): view('products/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 03:23:20 --> Undefined array key "created_at"
+in APPPATH\Views\products\orders.php on line 50.
+ 1 APPPATH\Views\products\orders.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/orders', [], true)
+ 5 APPPATH\Controllers\ShopController.php(270): view('products/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 03:23:54 --> Undefined array key "ImageURL"
+in APPPATH\Views\products\orders.php on line 49.
+ 1 APPPATH\Views\products\orders.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ImageURL"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php', 49)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/orders', [], true)
+ 5 APPPATH\Controllers\ShopController.php(270): view('products/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 03:24:22 --> Undefined array key "ProductID"
+in APPPATH\Views\products\orders.php on line 54.
+ 1 APPPATH\Views\products\orders.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProductID"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php', 54)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\products\\orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/orders', [], true)
+ 5 APPPATH\Controllers\ShopController.php(270): view('products/orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 10:04:07 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-04-02 10:04:07 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2024-04-02 10:08:01 --> mysqli_sql_exception: Unknown column 'orders.id' in 'where clause' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\laragon\www\AgilaEcommerce\app\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('1')
+#7 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('1', 'Shipped')
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-02 10:08:01 --> Unknown column 'orders.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`
+WHERE `orders`.`id` = :orders.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('1', 'Shipped')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2024-04-02 10:08:07 --> mysqli_sql_exception: Unknown column 'orders.id' in 'where clause' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\laragon\www\AgilaEcommerce\app\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('1')
+#7 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('1', 'Shipped')
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-02 10:08:07 --> Unknown column 'orders.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`
+WHERE `orders`.`id` = :orders.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('1', 'Shipped')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2024-04-02 10:11:32 --> mysqli_sql_exception: Unknown column 'orders.id' in 'where clause' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3')
+#6 C:\laragon\www\AgilaEcommerce\app\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('3')
+#7 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('3', 'Pending')
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-02 10:11:32 --> Unknown column 'orders.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`
+WHERE `orders`.`id` = :orders.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3')
+ 4 APPPATH\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('3')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('3', 'Pending')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2024-04-02 10:11:38 --> mysqli_sql_exception: Unknown column 'orders.id' in 'where clause' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '4')
+#6 C:\laragon\www\AgilaEcommerce\app\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('4')
+#7 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('4', 'Shipped')
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-02 10:11:38 --> Unknown column 'orders.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`
+WHERE `orders`.`id` = :orders.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '4')
+ 4 APPPATH\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('4')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('4', 'Shipped')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2024-04-02 10:11:46 --> mysqli_sql_exception: Unknown column 'orders.id' in 'where clause' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '4')
+#6 C:\laragon\www\AgilaEcommerce\app\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('4')
+#7 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('4', 'Pending')
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-02 10:11:46 --> Unknown column 'orders.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`
+WHERE `orders`.`id` = :orders.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '4')
+ 4 APPPATH\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('4')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('4', 'Pending')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2024-04-02 10:14:26 --> mysqli_sql_exception: Unknown column 'orders.id' in 'where clause' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+#6 C:\laragon\www\AgilaEcommerce\app\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('1')
+#7 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('1', 'Shipped')
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-02 10:14:26 --> Unknown column 'orders.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`
+WHERE `orders`.`id` = :orders.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('1', 'Shipped')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2024-04-02 10:20:58 --> mysqli_sql_exception: Unknown column 'orders.id' in 'where clause' in C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\AgilaEcommerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\AgilaEcommerce\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\AgilaEcommerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\AgilaEcommerce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\AgilaEcommerce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '2')
+#6 C:\laragon\www\AgilaEcommerce\app\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('2')
+#7 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('2', 'Pending')
+#8 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+#9 C:\laragon\www\AgilaEcommerce\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\AgilaEcommerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\AgilaEcommerce\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-04-02 10:20:58 --> Unknown column 'orders.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`
+WHERE `orders`.`id` = :orders.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '2')
+ 4 APPPATH\Controllers\ShopController.php(276): CodeIgniter\BaseModel->find('2')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ShopController->updateStatus('2', 'Pending')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShopController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')

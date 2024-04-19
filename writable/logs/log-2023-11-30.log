@@ -1,0 +1,50 @@
+CRITICAL - 2023-11-30 13:23:20 --> Attempt to read property "password" on array
+in APPPATH\Controllers\UserController.php on line 46.
+ 1 APPPATH\Controllers\UserController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Controllers\\UserController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->gologin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2023-11-30 13:25:23 --> Attempt to read property "password" on array
+in APPPATH\Controllers\UserController.php on line 46.
+ 1 APPPATH\Controllers\UserController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Controllers\\UserController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->gologin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2023-11-30 13:51:39 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\UserController.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\AgilaEcommerce\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2023-11-30 13:52:54 --> Array to string conversion
+in APPPATH\Controllers\UserController.php on line 46.
+ 1 APPPATH\Controllers\UserController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Controllers\\UserController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->gologin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2023-11-30 13:54:56 --> Undefined array key "password"
+in APPPATH\Controllers\UserController.php on line 46.
+ 1 APPPATH\Controllers\UserController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Controllers\\UserController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->gologin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2023-11-30 13:56:41 --> Undefined array key "password"
+in APPPATH\Controllers\UserController.php on line 49.
+ 1 APPPATH\Controllers\UserController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Controllers\\UserController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->gologin()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')

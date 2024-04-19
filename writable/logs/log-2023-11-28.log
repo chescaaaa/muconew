@@ -1,0 +1,30 @@
+CRITICAL - 2023-11-28 15:23:47 --> Undefined array key "CategoryID"
+in APPPATH\Controllers\InventoryController.php on line 40.
+ 1 APPPATH\Controllers\InventoryController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CategoryID"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Controllers\\InventoryController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InventoryController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2023-11-28 15:27:09 --> Error inserting item: Undefined array key "CategoryID"
+ERROR - 2023-11-28 15:27:29 --> Error inserting item: Undefined array key "CategoryID"
+ERROR - 2023-11-28 15:27:33 --> Error inserting item: Undefined array key "CategoryID"
+ERROR - 2023-11-28 15:27:39 --> Error inserting item: Undefined array key "CategoryID"
+ERROR - 2023-11-28 15:33:05 --> Error inserting item: Undefined array key "CategoryID"
+ERROR - 2023-11-28 15:33:14 --> Error inserting item: Undefined array key "CategoryID"
+ERROR - 2023-11-28 15:33:17 --> Error inserting item: Undefined array key "CategoryID"
+ERROR - 2023-11-28 15:43:46 --> Error inserting item: Undefined array key "CategoryID"
+ERROR - 2023-11-28 16:28:52 --> Error inserting item: Undefined array key "CategoryID"
+CRITICAL - 2023-11-28 16:37:22 --> Undefined array key "CategoryName"
+in APPPATH\Views\inventory_view.php on line 81.
+ 1 APPPATH\Views\inventory_view.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CategoryName"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\inventory_view.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\inventory_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('inventory_view', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(15): view('inventory_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InventoryController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+ERROR - 2023-11-28 17:13:46 --> Error inserting item: Undefined array key "CategoryID"

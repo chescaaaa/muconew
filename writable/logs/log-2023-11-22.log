@@ -1,0 +1,50 @@
+CRITICAL - 2023-11-22 05:58:40 --> Invalid file: "inventory_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inventory_view.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('inventory_view', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(17): view('inventory_view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InventoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ci4inventory_ecommerce\\public\\index.php')
+CRITICAL - 2023-11-22 05:58:58 --> Invalid file: "inventory_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inventory_view.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('inventory_view', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(17): view('inventory_view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InventoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ci4inventory_ecommerce\\public\\index.php')
+CRITICAL - 2023-11-22 05:59:13 --> Invalid file: "inventory_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inventory_view.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('inventory_view', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(17): view('inventory_view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InventoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ci4inventory_ecommerce\\public\\index.php')
+CRITICAL - 2023-11-22 05:59:14 --> Invalid file: "inventory_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inventory_view.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('inventory_view', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(17): view('inventory_view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InventoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ci4inventory_ecommerce\\public\\index.php')
+CRITICAL - 2023-11-22 05:59:15 --> Invalid file: "inventory_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inventory_view.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('inventory_view', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(17): view('inventory_view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InventoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ci4inventory_ecommerce\\public\\index.php')

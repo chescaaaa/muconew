@@ -1,0 +1,88 @@
+CRITICAL - 2024-03-03 11:17:29 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\UserController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-03 11:17:31 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\UserController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-03 11:31:44 --> "default" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 717.
+ 1 SYSTEMPATH\Validation\Validation.php(717): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('default')
+ 2 SYSTEMPATH\Validation\Validation.php(146): CodeIgniter\Validation\Validation->loadRuleGroup('default')
+ 3 APPPATH\Controllers\UserController.php(99): CodeIgniter\Validation\Validation->run([...], 'default')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-03-03 13:06:50 --> Undefined variable $alertMessage
+in APPPATH\Views\user\register.php on line 132.
+ 1 APPPATH\Views\user\register.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alertMessage', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/register', [], true)
+ 5 APPPATH\Controllers\UserController.php(28): view('user/register')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->registerView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-03-03 13:15:13 --> Array to string conversion
+in APPPATH\Views\user\register.php on line 82.
+ 1 APPPATH\Views\user\register.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php', 82)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/register', [], true)
+ 5 APPPATH\Controllers\UserController.php(28): view('user/register')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->registerView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-03-03 14:02:29 --> Undefined variable $alertMessage
+in APPPATH\Views\user\register.php on line 132.
+ 1 APPPATH\Views\user\register.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alertMessage', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/register', [], true)
+ 5 APPPATH\Controllers\UserController.php(29): view('user/register')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->registerView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-03-03 14:03:12 --> Array to string conversion
+in APPPATH\Views\user\register.php on line 82.
+ 1 APPPATH\Views\user\register.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php', 82)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/register', [], true)
+ 5 APPPATH\Controllers\UserController.php(29): view('user/register')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->registerView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-03-03 14:03:25 --> Array to string conversion
+in APPPATH\Views\user\register.php on line 82.
+ 1 APPPATH\Views\user\register.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php', 82)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\user\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/register', [], true)
+ 5 APPPATH\Controllers\UserController.php(29): view('user/register')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->registerView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
+CRITICAL - 2024-03-03 15:10:54 --> Undefined array key "ProductImage"
+in APPPATH\Views\website\cart.php on line 168.
+ 1 APPPATH\Views\website\cart.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ProductImage"', 'C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\cart.php', 168)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\AgilaEcommerce\\app\\Views\\website\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('website/cart', [], true)
+ 5 APPPATH\Controllers\WebController.php(51): view('website/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\WebController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WebController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\AgilaEcommerce\\public\\index.php')
